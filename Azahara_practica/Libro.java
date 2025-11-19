@@ -83,13 +83,13 @@ public void esExtranjero()
 
 public void informacion() {
         String disponibilidad = this.Disponible_reserva ? "Disponible" : "No disponible";
-        System.out.println("Libro: " + this.Titulo + " - " + this.Editorial + " (" + this.Anyo + "). " +
-                           this.Idioma + ", " + this.N_paginas + " pag. " + disponibilidad);
+        System.out.println("Libro: " + this.Titulo + " " + this.Editorial + " " + this.Anyo + " " +
+                           this.Idioma + " " + this.N_paginas + " pag " + disponibilidad);
     }
 
 public void mostrarInfo() {
         String disponibilidad = this.Disponible_reserva ? "Disponible" : "No disponible";
-        System.out.println("Libro: " + this.Titulo + " - " + this.Editorial + " (" + this.Anyo + "). " +
-                           this.Idioma + ", " + this.N_paginas + " pag. " + disponibilidad);
+        System.out.println("Libro: " + this.Titulo + " " + this.Editorial + " " + this.Anyo + " " +
+                           this.Idioma + " " + this.N_paginas + " pag " + disponibilidad);
     }
 }

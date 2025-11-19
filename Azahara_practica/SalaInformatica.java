@@ -28,7 +28,7 @@ public class SalaInformatica extends Sala {
     
     //Métodos
     public void mostrarInfoEquipos() {
-        System.out.println("Sala: " + this.getNombre() + " - Equipos: " + this.numEquipos);
+        System.out.println("Sala: " + this.getNombre() + " Equipos: " + this.numEquipos);
     }
     
     public void verificarEquiposDisponibles() {

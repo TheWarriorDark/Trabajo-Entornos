@@ -86,9 +86,9 @@ public void estaJubilado()
 }
 
 public void mostrarInfo() {
-    System.out.println("Persona: " + this.nombre + " " + this.apellidos + " - DNI: " + this.DNI +
-                       " - Edad: " + this.edad + " - Teléfono: " + this.telefono + " - Email: " + this.email +
-                       " - Profesión: " + this.profesion + " - Años: " + this.Anyos_de_experiencia);
+    System.out.println("Persona: " + this.nombre + " " + this.apellidos + " DNI: " + this.DNI +
+                       " Edad: " + this.edad + " Teléfono: " + this.telefono + " Email: " + this.email +
+                       " Profesión: " + this.profesion + " Años: " + this.Anyos_de_experiencia);
 }
 
 }

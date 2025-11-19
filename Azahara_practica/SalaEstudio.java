@@ -28,7 +28,7 @@ public class SalaEstudio extends Sala {
     
     //Métodos
     public void mostrarInfoMesas() {
-        System.out.println("Sala: " + this.getNombre() + " - Mesas: " + this.numMesas);
+        System.out.println("Sala: " + this.getNombre() + " Mesas: " + this.numMesas);
     }
     
     public void calcularPersonasPorMesa() {

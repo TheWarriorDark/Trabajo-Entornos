@@ -82,16 +82,12 @@ public class Main {
         // Registrar visitas
         central.registrarVisita(usuario3);
         
-        System.out.println("=".repeat(80));
         System.out.println("INFORMACIÓN COMPLETA DE LA BIBLIOTECA");
-        System.out.println("=".repeat(80));
         
         // e. Mostrar toda la información
         central.mostrarBiblioteca();
         
-        System.out.println("\n" + "=".repeat(80));
-        System.out.println("INFORMACIÓN DETALLADA DE SALAS");
-        System.out.println("=".repeat(80) + "\n");
+        System.out.println("\nINFORMACIÓN DETALLADA DE SALAS\n");
         
         salaLectura.mostrarPersonas();
         System.out.println();
@@ -111,9 +107,7 @@ public class Main {
         salaConferencias.mostrarPersonas();
         System.out.println();
         
-        System.out.println("=".repeat(80));
-        System.out.println("INFORMACIÓN DE USUARIOS");
-        System.out.println("=".repeat(80) + "\n");
+        System.out.println("\nINFORMACIÓN DE USUARIOS\n");
         
         usuario1.mostrarPrestamosPendientes();
         System.out.println();
@@ -122,9 +116,7 @@ public class Main {
         usuario4.mostrarPrestamosPendientes();
         System.out.println();
         
-        System.out.println("=".repeat(80));
-        System.out.println("INFORMACIÓN DE EMPLEADOS");
-        System.out.println("=".repeat(80) + "\n");
+        System.out.println("\nINFORMACIÓN DE EMPLEADOS\n");
         
         empleadoJefe.mostrarInfoEmpleado();
         System.out.println();

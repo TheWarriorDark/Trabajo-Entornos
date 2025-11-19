@@ -109,16 +109,16 @@ public class Sala {
         String textoPizarra = this.pizarra ? "con" : "sin";
         String textoDisponible = this.disponibleParaReserva ? "disponible" : "no disponible";
 
-        System.out.println("Sala: " + this.nombre + " - Capacidad: " + this.capacidad + " - " +
-                           this.tipo + " - " + textoPizarra + " pizarra - " + textoDisponible);
+        System.out.println("Sala: " + this.nombre + " Capacidad: " + this.capacidad + " " +
+                           this.tipo + " " + textoPizarra + " pizarra " + textoDisponible);
     }
 
     public void mostrarInfo() {
         String textoPizarra = this.pizarra ? "con" : "sin";
         String textoDisponible = this.disponibleParaReserva ? "disponible" : "no disponible";
 
-        System.out.println("Sala: " + this.nombre + " - Capacidad: " + this.capacidad + " - " +
-                           this.tipo + " - " + textoPizarra + " pizarra - " + textoDisponible);
+        System.out.println("Sala: " + this.nombre + " Capacidad: " + this.capacidad + " " +
+                           this.tipo + " " + textoPizarra + " pizarra " + textoDisponible);
     }
 
     //Métodos para gestionar Personas en la Sala

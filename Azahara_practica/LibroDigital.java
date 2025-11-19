@@ -40,7 +40,7 @@ public class LibroDigital extends Libro {
     public void mostrarInfoDigital() {
         System.out.println("LIBRO DIGITAL");
         this.mostrarInfo();
-        System.out.println("Formato: " + this.formato + " - Tamaño: " + this.tamañoMB + " MB");
+        System.out.println("Formato: " + this.formato + " Tamaño: " + this.tamañoMB + " MB");
     }
     
     public void descargarLibro() {
