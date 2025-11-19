@@ -61,3 +61,6 @@ public void addLibro(Libro libro) {
 ### f. ¿Dónde usarías @Override en tu implementación?
 
 #### **@Override se usa cuando una clase “hija” quiere cambiar o mejorar el comportamiento de un método que ya existe en su clase “padre”. Es como decir: “Oye compilador, este método sustituye al de la clase de arriba”.**
+
+<img width="1142" height="310" alt="imagen" src="https://drive.google.com/file/d/1W0EWvtgGL35Dj4yUo1kU5NHsqKVfLk63/view?usp=sharing" />
+
