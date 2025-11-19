@@ -62,5 +62,5 @@ public void addLibro(Libro libro) {
 
 #### **@Override se usa cuando una clase “hija” quiere cambiar o mejorar el comportamiento de un método que ya existe en su clase “padre”. Es como decir: “Oye compilador, este método sustituye al de la clase de arriba”.**
 
-<img width="1142" height="310" alt="imagen" src="https://imgur.com/a/12fnPcN" />
+<img width="1142" height="310" alt="imagen" src="https://i.imgur.com/wwklJ2f.png" />
 
