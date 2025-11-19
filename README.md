@@ -8,16 +8,16 @@
 
 La relación entre Biblioteca y Sala es de **composición** porque:
 
-**Propiedad exclusiva**: Las salas son creadas y pertenecen únicamente a la biblioteca
-**Ciclo de vida vinculado**: Las salas no pueden existir sin una biblioteca que las contenga
-**Responsabilidad de gestión**: La biblioteca es responsable completa de crear, almacenar y eliminar las salas
+- **Propiedad exclusiva**: Las salas son creadas y pertenecen únicamente a la biblioteca
+- **Ciclo de vida vinculado**: Las salas no pueden existir sin una biblioteca que las contenga
+ **Responsabilidad de gestión**: La biblioteca es responsable completa de crear, almacenar y eliminar las salas
 
 ### b. ¿Qué pasaría con las salas si se destruye la biblioteca?
 
 Si se destruyera la Biblioteca:
 
-**Las salas desaparecerían** porque están contenidas en la lista `List<Sala> salas` de la biblioteca
-**Pérdida de contexto**: Las salas perderían su propósito sin la biblioteca
+- **Las salas desaparecerían** porque están contenidas en la lista `List<Sala> salas` de la biblioteca
+- **Pérdida de contexto**: Las salas perderían su propósito sin la biblioteca
 
 ### c. ¿En qué se diferencia la agregación de la composición en tu código?
 
@@ -53,10 +53,10 @@ public void addLibro(Libro libro) {
 
 ### e. ¿Qué ventaja ofrece la herencia al definir distintos tipos de personas?
 
-**Evita duplicación**: No repetimos Titulo, ISBN, Editorial en cada subclase
-**Polimorfismo**: Podemos tratar ambos tipos como `Libro`:
-**Comportamientos especializados**: Cada tipo implementa métodos propios:
-**Reutilización de código**: `mostrarInfo()` se hereda, evitando repetición
+- **Evita duplicación**: No repetimos Titulo, ISBN, Editorial en cada subclase
+- **Polimorfismo**: Podemos tratar ambos tipos como `Libro`:
+- **Comportamientos especializados**: Cada tipo implementa métodos propios:
+- **Reutilización de código**: `mostrarInfo()` se hereda, evitando repetición
 
 ### f. ¿Dónde usarías @Override en tu implementación?
 
